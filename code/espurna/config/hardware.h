@@ -124,6 +124,7 @@
 
     #define DHT_SUPPORT         1
     #define DHT_PIN             14  // D5
+    #define DHT_TYPE            DHT_CHIP_DHT11
 
 #elif defined(WEMOS_D1_TARPUNA_SHIELD)
 

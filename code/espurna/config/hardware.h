@@ -112,6 +112,15 @@
     #define I2C_SDA_PIN         12  // D6
     #define I2C_SCL_PIN         14  // D5
 
+#elif defined(WEMOS_D1_MINI_DHTSHIELD)
+
+    // Info
+    #define MANUFACTURER        "WEMOS"
+    #define DEVICE              "D1_MINI_DHTSHIELD"
+
+    #define DHT_SUPPORT         1
+    #define DHT_PIN             14  // D5
+
 #elif defined(WEMOS_D1_TARPUNA_SHIELD)
 
     // Info

@@ -118,6 +118,10 @@
     #define MANUFACTURER        "WEMOS"
     #define DEVICE              "D1_MINI_DHTSHIELD"
 
+    // Buttons
+    #define BUTTON1_PIN         16  // D0
+    #define BUTTON1_MODE        BUTTON_PUSHBUTTON | BUTTON_DEFAULT_HIGH
+
     #define DHT_SUPPORT         1
     #define DHT_PIN             14  // D5
 

@@ -90,27 +90,29 @@
 
     // Info
     #define MANUFACTURER        "WEMOS"
-    #define DEVICE              "D1_MINI_RELAYSHIELD"
+    #define DEVICE              "D1_MINI_8ch_RELAY"
 
     // Buttons
-    // No buttons on the D1 MINI alone, but defining it without adding a button doen't create problems
-    #define BUTTON1_PIN         0   // Connect a pushbutton between D3 and GND,
-                                    // it's the same as using a Wemos one button shield
+    #define BUTTON1_PIN         16 //D0
     #define BUTTON1_MODE        BUTTON_PUSHBUTTON | BUTTON_DEFAULT_HIGH
-    #define BUTTON1_RELAY       1
 
     // Relays
-    #define RELAY1_PIN          5
+    #define RELAY1_PIN          5  //D1
     #define RELAY1_TYPE         RELAY_TYPE_NORMAL
-
-    // LEDs
-    #define LED1_PIN            2
-    #define LED1_PIN_INVERSE    1
-
-    // When Wemos relay shield is connected GPIO5 (D1) is used for relay,
-    // so I2C must be remapped to other pins
-    #define I2C_SDA_PIN         12  // D6
-    #define I2C_SCL_PIN         14  // D5
+    #define RELAY2_PIN          4  //D2
+    #define RELAY2_TYPE         RELAY_TYPE_NORMAL
+    #define RELAY3_PIN          0  //D3
+    #define RELAY3_TYPE         RELAY_TYPE_NORMAL
+    #define RELAY4_PIN          2  //D4
+    #define RELAY4_TYPE         RELAY_TYPE_NORMAL
+    #define RELAY5_PIN          14 //D5
+    #define RELAY5_TYPE         RELAY_TYPE_NORMAL
+    #define RELAY6_PIN          12 //D6
+    #define RELAY6_TYPE         RELAY_TYPE_NORMAL
+    #define RELAY7_PIN          13 //D7
+    #define RELAY7_TYPE         RELAY_TYPE_NORMAL
+    #define RELAY8_PIN          15 //D8
+    #define RELAY8_TYPE         RELAY_TYPE_NORMAL
 
 #elif defined(WEMOS_D1_TARPUNA_SHIELD)
 

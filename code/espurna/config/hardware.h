@@ -90,25 +90,21 @@
 
     // Info
     #define MANUFACTURER        "WEMOS"
-    #define DEVICE              "D1_MINI_8ch_RELAY"
+    #define DEVICE              "D1_MINI_6ch_RELAY"
 
     // Relays
-    #define RELAY1_PIN          16 //D0
+    #define RELAY1_PIN          16
     #define RELAY1_TYPE         RELAY_TYPE_NORMAL
-    #define RELAY2_PIN          5  //D1
+    #define RELAY2_PIN          14
     #define RELAY2_TYPE         RELAY_TYPE_NORMAL
-    #define RELAY3_PIN          4  //D2
+    #define RELAY3_PIN          12
     #define RELAY3_TYPE         RELAY_TYPE_NORMAL
-    #define RELAY4_PIN          0  //D3
+    #define RELAY4_PIN          0
     #define RELAY4_TYPE         RELAY_TYPE_NORMAL
-    #define RELAY5_PIN          14 //D5
+    #define RELAY5_PIN          4
     #define RELAY5_TYPE         RELAY_TYPE_NORMAL
-    #define RELAY6_PIN          12 //D6
+    #define RELAY6_PIN          5
     #define RELAY6_TYPE         RELAY_TYPE_NORMAL
-    #define RELAY7_PIN          13 //D7
-    #define RELAY7_TYPE         RELAY_TYPE_NORMAL
-    #define RELAY8_PIN          15 //D8
-    #define RELAY8_TYPE         RELAY_TYPE_NORMAL
 
     // LEDs
     #define LED1_PIN            2
